@@ -1,10 +1,10 @@
-# 🚀 LLM Version Recommender System
+#  LLM Version Recommender System
 
 An intelligent system that analyzes a user prompt and recommends the most suitable Large Language Model (LLM) (e.g., Claude Haiku, Sonnet, Opus, GPT-4) based on task complexity, intent, and context.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Different LLM variants are optimized for different tasks:
 
@@ -22,31 +22,31 @@ This project solves that by **automatically recommending the best model for a gi
 
 ---
 
-## 🎯 Features
+##  Features
 
-* 🔍 **Prompt Analysis**
+*  **Prompt Analysis**
 
   * Detects intent (coding, reasoning, creative, factual)
   * Measures complexity (length + keywords + structure)
 
-* 🧠 **Hybrid Recommendation Engine**
+*  **Hybrid Recommendation Engine**
 
   * Rule-based logic for clear cases
   * ML model (Random Forest) for ambiguous prompts
 
-* 📊 **Explainability**
+*  **Explainability**
 
   * Shows *why* a model was selected
   * Displays confidence score
 
-* 🌐 **Interactive UI**
+*  **Interactive UI**
 
   * Built with Streamlit
   * Real-time recommendations
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 User Prompt
@@ -62,7 +62,7 @@ Final Recommendation + Explanation
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * Python
 * Streamlit (UI)
@@ -71,7 +71,7 @@ Final Recommendation + Explanation
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 llm-recommender/
@@ -86,7 +86,7 @@ llm-recommender/
 ```
 
 
-## 🧪 Example Use Cases
+##  Example Use Cases
 
 | Prompt                              | Recommended Model           |
 | ----------------------------------- | --------------------------- |
@@ -97,7 +97,7 @@ llm-recommender/
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 The system extracts features such as:
 
@@ -113,7 +113,7 @@ These are passed into:
 
 ---
 
-## ⚡ Performance
+##  Performance
 
 * Fast inference (< 1 sec)
 * Lightweight (runs on CPU)
@@ -121,7 +121,7 @@ These are passed into:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Add real LLM API benchmarking
 * Fine-tuned classification model
